@@ -88,6 +88,9 @@ foreach ($people as $number => $name) {
     }
 }
 ?>
-
+<form action="loginform.php" method="post">
+    <p>Calculated M1: <input type="text" name="message1" /></p>
+    <p><input type="submit" /></p>
+</form>
 </body>
 </html>
